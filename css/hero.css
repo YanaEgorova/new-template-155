@@ -272,7 +272,9 @@
         height: 40rem;
     }
 
- 
+    .hero .title {
+        max-width: 50rem;
+    }
 
 
 
