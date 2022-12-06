@@ -200,12 +200,13 @@ body.error-active .error__overlay {
   transform: translate(-50%, -50%);
   width: calc(100% + 1rem);
   height: calc(100% + 1rem);
-  background: rgba(254, 185, 3, .3);
+  background: var(--second-brand-color);
+  opacity: .5;
   box-shadow: 0 .8rem 3.2rem 0 rgba(0, 0, 0, .2);
   backdrop-filter: blur( .4rem );
   -webkit-backdrop-filter: blur( .4rem );
   border-radius: 1rem;
-  border: .2rem solid rgba( 255, 255, 255, 0.5 );
+  border: .2rem solid var(--second-brand-color);
   z-index: -1;
   transition:all .2s ease-in-out;
 }
