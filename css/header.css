@@ -86,9 +86,13 @@ body.open-menu {
 .open-menu .nav__list {
     opacity: 1;
 }
-
+.header-flex {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
 .cart__btn {
-    display: none;
+    display: flex;
     align-items: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
