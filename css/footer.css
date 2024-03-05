@@ -40,6 +40,10 @@
   margin-bottom: 0;
 }
 
+
+.footer p, .footer span, .footer a {
+  color: #fff;
+}
 @media screen and (min-width: 1024px) {
   .footer__policies {
     display: flex;
